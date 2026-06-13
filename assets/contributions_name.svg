@@ -1,11 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="562" height="82" viewBox="0 0 562 82">
   <style>
-    .bg { fill: none; }
-    .square-empty { fill: #ebedf0; rx: 2px; ry: 2px; }
-    .square-filled { fill: #216e39; rx: 2px; ry: 2px; }
+    :root {
+      --color-empty: #ebedf0;
+      --color-filled: #216e39;
+    }
     @media (prefers-color-scheme: dark) {
-      .square-empty { fill: #161b22; }
-      .square-filled { fill: #39d353; }
+      :root {
+        --color-empty: #161b22;
+        --color-filled: #39d353;
+      }
+    }
+    .bg { fill: none; }
+    .square-empty { fill: var(--color-empty); rx: 2px; ry: 2px; }
+    .square-filled {
+      fill: var(--color-empty);
+      rx: 2px; ry: 2px;
+      animation: reveal 5s infinite;
+    }
+    .letter-0 { animation-delay: 0.0s; }
+    .letter-1 { animation-delay: 0.3s; }
+    .letter-2 { animation-delay: 0.6s; }
+    .letter-3 { animation-delay: 0.9s; }
+    .letter-4 { animation-delay: 1.2s; }
+    .letter-5 { animation-delay: 1.5s; }
+    .letter-6 { animation-delay: 1.8s; }
+    @keyframes reveal {
+      0% { fill: var(--color-empty); }
+      15% { fill: var(--color-filled); }
+      70% { fill: var(--color-filled); }
+      85% { fill: var(--color-empty); }
+      100% { fill: var(--color-empty); }
     }
   </style>
   <rect width="562" height="82" class="bg" />
@@ -30,40 +54,40 @@
   <rect x="24" y="48" width="10" height="10" class="square-empty" />
   <rect x="24" y="60" width="10" height="10" class="square-empty" />
   <rect x="24" y="72" width="10" height="10" class="square-empty" />
-  <rect x="36" y="0" width="10" height="10" class="square-filled" />
-  <rect x="36" y="12" width="10" height="10" class="square-filled" />
-  <rect x="36" y="24" width="10" height="10" class="square-filled" />
-  <rect x="36" y="36" width="10" height="10" class="square-filled" />
-  <rect x="36" y="48" width="10" height="10" class="square-filled" />
-  <rect x="36" y="60" width="10" height="10" class="square-filled" />
-  <rect x="36" y="72" width="10" height="10" class="square-filled" />
-  <rect x="48" y="0" width="10" height="10" class="square-filled" />
+  <rect x="36" y="0" width="10" height="10" class="square-filled letter-0" />
+  <rect x="36" y="12" width="10" height="10" class="square-filled letter-0" />
+  <rect x="36" y="24" width="10" height="10" class="square-filled letter-0" />
+  <rect x="36" y="36" width="10" height="10" class="square-filled letter-0" />
+  <rect x="36" y="48" width="10" height="10" class="square-filled letter-0" />
+  <rect x="36" y="60" width="10" height="10" class="square-filled letter-0" />
+  <rect x="36" y="72" width="10" height="10" class="square-filled letter-0" />
+  <rect x="48" y="0" width="10" height="10" class="square-filled letter-0" />
   <rect x="48" y="12" width="10" height="10" class="square-empty" />
   <rect x="48" y="24" width="10" height="10" class="square-empty" />
   <rect x="48" y="36" width="10" height="10" class="square-empty" />
   <rect x="48" y="48" width="10" height="10" class="square-empty" />
   <rect x="48" y="60" width="10" height="10" class="square-empty" />
-  <rect x="48" y="72" width="10" height="10" class="square-filled" />
-  <rect x="60" y="0" width="10" height="10" class="square-filled" />
+  <rect x="48" y="72" width="10" height="10" class="square-filled letter-0" />
+  <rect x="60" y="0" width="10" height="10" class="square-filled letter-0" />
   <rect x="60" y="12" width="10" height="10" class="square-empty" />
   <rect x="60" y="24" width="10" height="10" class="square-empty" />
   <rect x="60" y="36" width="10" height="10" class="square-empty" />
   <rect x="60" y="48" width="10" height="10" class="square-empty" />
   <rect x="60" y="60" width="10" height="10" class="square-empty" />
-  <rect x="60" y="72" width="10" height="10" class="square-filled" />
-  <rect x="72" y="0" width="10" height="10" class="square-filled" />
+  <rect x="60" y="72" width="10" height="10" class="square-filled letter-0" />
+  <rect x="72" y="0" width="10" height="10" class="square-filled letter-0" />
   <rect x="72" y="12" width="10" height="10" class="square-empty" />
   <rect x="72" y="24" width="10" height="10" class="square-empty" />
   <rect x="72" y="36" width="10" height="10" class="square-empty" />
   <rect x="72" y="48" width="10" height="10" class="square-empty" />
   <rect x="72" y="60" width="10" height="10" class="square-empty" />
-  <rect x="72" y="72" width="10" height="10" class="square-filled" />
+  <rect x="72" y="72" width="10" height="10" class="square-filled letter-0" />
   <rect x="84" y="0" width="10" height="10" class="square-empty" />
-  <rect x="84" y="12" width="10" height="10" class="square-filled" />
-  <rect x="84" y="24" width="10" height="10" class="square-filled" />
-  <rect x="84" y="36" width="10" height="10" class="square-filled" />
-  <rect x="84" y="48" width="10" height="10" class="square-filled" />
-  <rect x="84" y="60" width="10" height="10" class="square-filled" />
+  <rect x="84" y="12" width="10" height="10" class="square-filled letter-0" />
+  <rect x="84" y="24" width="10" height="10" class="square-filled letter-0" />
+  <rect x="84" y="36" width="10" height="10" class="square-filled letter-0" />
+  <rect x="84" y="48" width="10" height="10" class="square-filled letter-0" />
+  <rect x="84" y="60" width="10" height="10" class="square-filled letter-0" />
   <rect x="84" y="72" width="10" height="10" class="square-empty" />
   <rect x="96" y="0" width="10" height="10" class="square-empty" />
   <rect x="96" y="12" width="10" height="10" class="square-empty" />
@@ -73,40 +97,40 @@
   <rect x="96" y="60" width="10" height="10" class="square-empty" />
   <rect x="96" y="72" width="10" height="10" class="square-empty" />
   <rect x="108" y="0" width="10" height="10" class="square-empty" />
-  <rect x="108" y="12" width="10" height="10" class="square-filled" />
-  <rect x="108" y="24" width="10" height="10" class="square-filled" />
-  <rect x="108" y="36" width="10" height="10" class="square-filled" />
-  <rect x="108" y="48" width="10" height="10" class="square-filled" />
-  <rect x="108" y="60" width="10" height="10" class="square-filled" />
-  <rect x="108" y="72" width="10" height="10" class="square-filled" />
-  <rect x="120" y="0" width="10" height="10" class="square-filled" />
+  <rect x="108" y="12" width="10" height="10" class="square-filled letter-1" />
+  <rect x="108" y="24" width="10" height="10" class="square-filled letter-1" />
+  <rect x="108" y="36" width="10" height="10" class="square-filled letter-1" />
+  <rect x="108" y="48" width="10" height="10" class="square-filled letter-1" />
+  <rect x="108" y="60" width="10" height="10" class="square-filled letter-1" />
+  <rect x="108" y="72" width="10" height="10" class="square-filled letter-1" />
+  <rect x="120" y="0" width="10" height="10" class="square-filled letter-1" />
   <rect x="120" y="12" width="10" height="10" class="square-empty" />
   <rect x="120" y="24" width="10" height="10" class="square-empty" />
-  <rect x="120" y="36" width="10" height="10" class="square-filled" />
+  <rect x="120" y="36" width="10" height="10" class="square-filled letter-1" />
   <rect x="120" y="48" width="10" height="10" class="square-empty" />
   <rect x="120" y="60" width="10" height="10" class="square-empty" />
   <rect x="120" y="72" width="10" height="10" class="square-empty" />
-  <rect x="132" y="0" width="10" height="10" class="square-filled" />
+  <rect x="132" y="0" width="10" height="10" class="square-filled letter-1" />
   <rect x="132" y="12" width="10" height="10" class="square-empty" />
   <rect x="132" y="24" width="10" height="10" class="square-empty" />
-  <rect x="132" y="36" width="10" height="10" class="square-filled" />
+  <rect x="132" y="36" width="10" height="10" class="square-filled letter-1" />
   <rect x="132" y="48" width="10" height="10" class="square-empty" />
   <rect x="132" y="60" width="10" height="10" class="square-empty" />
   <rect x="132" y="72" width="10" height="10" class="square-empty" />
-  <rect x="144" y="0" width="10" height="10" class="square-filled" />
+  <rect x="144" y="0" width="10" height="10" class="square-filled letter-1" />
   <rect x="144" y="12" width="10" height="10" class="square-empty" />
   <rect x="144" y="24" width="10" height="10" class="square-empty" />
-  <rect x="144" y="36" width="10" height="10" class="square-filled" />
+  <rect x="144" y="36" width="10" height="10" class="square-filled letter-1" />
   <rect x="144" y="48" width="10" height="10" class="square-empty" />
   <rect x="144" y="60" width="10" height="10" class="square-empty" />
   <rect x="144" y="72" width="10" height="10" class="square-empty" />
   <rect x="156" y="0" width="10" height="10" class="square-empty" />
-  <rect x="156" y="12" width="10" height="10" class="square-filled" />
-  <rect x="156" y="24" width="10" height="10" class="square-filled" />
-  <rect x="156" y="36" width="10" height="10" class="square-filled" />
-  <rect x="156" y="48" width="10" height="10" class="square-filled" />
-  <rect x="156" y="60" width="10" height="10" class="square-filled" />
-  <rect x="156" y="72" width="10" height="10" class="square-filled" />
+  <rect x="156" y="12" width="10" height="10" class="square-filled letter-1" />
+  <rect x="156" y="24" width="10" height="10" class="square-filled letter-1" />
+  <rect x="156" y="36" width="10" height="10" class="square-filled letter-1" />
+  <rect x="156" y="48" width="10" height="10" class="square-filled letter-1" />
+  <rect x="156" y="60" width="10" height="10" class="square-filled letter-1" />
+  <rect x="156" y="72" width="10" height="10" class="square-filled letter-1" />
   <rect x="168" y="0" width="10" height="10" class="square-empty" />
   <rect x="168" y="12" width="10" height="10" class="square-empty" />
   <rect x="168" y="24" width="10" height="10" class="square-empty" />
@@ -114,41 +138,41 @@
   <rect x="168" y="48" width="10" height="10" class="square-empty" />
   <rect x="168" y="60" width="10" height="10" class="square-empty" />
   <rect x="168" y="72" width="10" height="10" class="square-empty" />
-  <rect x="180" y="0" width="10" height="10" class="square-filled" />
-  <rect x="180" y="12" width="10" height="10" class="square-filled" />
-  <rect x="180" y="24" width="10" height="10" class="square-filled" />
-  <rect x="180" y="36" width="10" height="10" class="square-filled" />
-  <rect x="180" y="48" width="10" height="10" class="square-filled" />
-  <rect x="180" y="60" width="10" height="10" class="square-filled" />
-  <rect x="180" y="72" width="10" height="10" class="square-filled" />
-  <rect x="192" y="0" width="10" height="10" class="square-filled" />
+  <rect x="180" y="0" width="10" height="10" class="square-filled letter-2" />
+  <rect x="180" y="12" width="10" height="10" class="square-filled letter-2" />
+  <rect x="180" y="24" width="10" height="10" class="square-filled letter-2" />
+  <rect x="180" y="36" width="10" height="10" class="square-filled letter-2" />
+  <rect x="180" y="48" width="10" height="10" class="square-filled letter-2" />
+  <rect x="180" y="60" width="10" height="10" class="square-filled letter-2" />
+  <rect x="180" y="72" width="10" height="10" class="square-filled letter-2" />
+  <rect x="192" y="0" width="10" height="10" class="square-filled letter-2" />
   <rect x="192" y="12" width="10" height="10" class="square-empty" />
   <rect x="192" y="24" width="10" height="10" class="square-empty" />
-  <rect x="192" y="36" width="10" height="10" class="square-filled" />
+  <rect x="192" y="36" width="10" height="10" class="square-filled letter-2" />
   <rect x="192" y="48" width="10" height="10" class="square-empty" />
   <rect x="192" y="60" width="10" height="10" class="square-empty" />
   <rect x="192" y="72" width="10" height="10" class="square-empty" />
-  <rect x="204" y="0" width="10" height="10" class="square-filled" />
+  <rect x="204" y="0" width="10" height="10" class="square-filled letter-2" />
   <rect x="204" y="12" width="10" height="10" class="square-empty" />
   <rect x="204" y="24" width="10" height="10" class="square-empty" />
-  <rect x="204" y="36" width="10" height="10" class="square-filled" />
-  <rect x="204" y="48" width="10" height="10" class="square-filled" />
+  <rect x="204" y="36" width="10" height="10" class="square-filled letter-2" />
+  <rect x="204" y="48" width="10" height="10" class="square-filled letter-2" />
   <rect x="204" y="60" width="10" height="10" class="square-empty" />
   <rect x="204" y="72" width="10" height="10" class="square-empty" />
-  <rect x="216" y="0" width="10" height="10" class="square-filled" />
+  <rect x="216" y="0" width="10" height="10" class="square-filled letter-2" />
   <rect x="216" y="12" width="10" height="10" class="square-empty" />
   <rect x="216" y="24" width="10" height="10" class="square-empty" />
-  <rect x="216" y="36" width="10" height="10" class="square-filled" />
+  <rect x="216" y="36" width="10" height="10" class="square-filled letter-2" />
   <rect x="216" y="48" width="10" height="10" class="square-empty" />
-  <rect x="216" y="60" width="10" height="10" class="square-filled" />
+  <rect x="216" y="60" width="10" height="10" class="square-filled letter-2" />
   <rect x="216" y="72" width="10" height="10" class="square-empty" />
   <rect x="228" y="0" width="10" height="10" class="square-empty" />
-  <rect x="228" y="12" width="10" height="10" class="square-filled" />
-  <rect x="228" y="24" width="10" height="10" class="square-filled" />
+  <rect x="228" y="12" width="10" height="10" class="square-filled letter-2" />
+  <rect x="228" y="24" width="10" height="10" class="square-filled letter-2" />
   <rect x="228" y="36" width="10" height="10" class="square-empty" />
   <rect x="228" y="48" width="10" height="10" class="square-empty" />
   <rect x="228" y="60" width="10" height="10" class="square-empty" />
-  <rect x="228" y="72" width="10" height="10" class="square-filled" />
+  <rect x="228" y="72" width="10" height="10" class="square-filled letter-2" />
   <rect x="240" y="0" width="10" height="10" class="square-empty" />
   <rect x="240" y="12" width="10" height="10" class="square-empty" />
   <rect x="240" y="24" width="10" height="10" class="square-empty" />
@@ -157,39 +181,39 @@
   <rect x="240" y="60" width="10" height="10" class="square-empty" />
   <rect x="240" y="72" width="10" height="10" class="square-empty" />
   <rect x="252" y="0" width="10" height="10" class="square-empty" />
-  <rect x="252" y="12" width="10" height="10" class="square-filled" />
-  <rect x="252" y="24" width="10" height="10" class="square-filled" />
+  <rect x="252" y="12" width="10" height="10" class="square-filled letter-3" />
+  <rect x="252" y="24" width="10" height="10" class="square-filled letter-3" />
   <rect x="252" y="36" width="10" height="10" class="square-empty" />
   <rect x="252" y="48" width="10" height="10" class="square-empty" />
   <rect x="252" y="60" width="10" height="10" class="square-empty" />
-  <rect x="252" y="72" width="10" height="10" class="square-filled" />
-  <rect x="264" y="0" width="10" height="10" class="square-filled" />
+  <rect x="252" y="72" width="10" height="10" class="square-filled letter-3" />
+  <rect x="264" y="0" width="10" height="10" class="square-filled letter-3" />
   <rect x="264" y="12" width="10" height="10" class="square-empty" />
   <rect x="264" y="24" width="10" height="10" class="square-empty" />
-  <rect x="264" y="36" width="10" height="10" class="square-filled" />
+  <rect x="264" y="36" width="10" height="10" class="square-filled letter-3" />
   <rect x="264" y="48" width="10" height="10" class="square-empty" />
   <rect x="264" y="60" width="10" height="10" class="square-empty" />
-  <rect x="264" y="72" width="10" height="10" class="square-filled" />
-  <rect x="276" y="0" width="10" height="10" class="square-filled" />
+  <rect x="264" y="72" width="10" height="10" class="square-filled letter-3" />
+  <rect x="276" y="0" width="10" height="10" class="square-filled letter-3" />
   <rect x="276" y="12" width="10" height="10" class="square-empty" />
   <rect x="276" y="24" width="10" height="10" class="square-empty" />
-  <rect x="276" y="36" width="10" height="10" class="square-filled" />
+  <rect x="276" y="36" width="10" height="10" class="square-filled letter-3" />
   <rect x="276" y="48" width="10" height="10" class="square-empty" />
   <rect x="276" y="60" width="10" height="10" class="square-empty" />
-  <rect x="276" y="72" width="10" height="10" class="square-filled" />
-  <rect x="288" y="0" width="10" height="10" class="square-filled" />
+  <rect x="276" y="72" width="10" height="10" class="square-filled letter-3" />
+  <rect x="288" y="0" width="10" height="10" class="square-filled letter-3" />
   <rect x="288" y="12" width="10" height="10" class="square-empty" />
   <rect x="288" y="24" width="10" height="10" class="square-empty" />
-  <rect x="288" y="36" width="10" height="10" class="square-filled" />
+  <rect x="288" y="36" width="10" height="10" class="square-filled letter-3" />
   <rect x="288" y="48" width="10" height="10" class="square-empty" />
   <rect x="288" y="60" width="10" height="10" class="square-empty" />
-  <rect x="288" y="72" width="10" height="10" class="square-filled" />
-  <rect x="300" y="0" width="10" height="10" class="square-filled" />
+  <rect x="288" y="72" width="10" height="10" class="square-filled letter-3" />
+  <rect x="300" y="0" width="10" height="10" class="square-filled letter-3" />
   <rect x="300" y="12" width="10" height="10" class="square-empty" />
   <rect x="300" y="24" width="10" height="10" class="square-empty" />
   <rect x="300" y="36" width="10" height="10" class="square-empty" />
-  <rect x="300" y="48" width="10" height="10" class="square-filled" />
-  <rect x="300" y="60" width="10" height="10" class="square-filled" />
+  <rect x="300" y="48" width="10" height="10" class="square-filled letter-3" />
+  <rect x="300" y="60" width="10" height="10" class="square-filled letter-3" />
   <rect x="300" y="72" width="10" height="10" class="square-empty" />
   <rect x="312" y="0" width="10" height="10" class="square-empty" />
   <rect x="312" y="12" width="10" height="10" class="square-empty" />
@@ -198,41 +222,41 @@
   <rect x="312" y="48" width="10" height="10" class="square-empty" />
   <rect x="312" y="60" width="10" height="10" class="square-empty" />
   <rect x="312" y="72" width="10" height="10" class="square-empty" />
-  <rect x="324" y="0" width="10" height="10" class="square-filled" />
-  <rect x="324" y="12" width="10" height="10" class="square-filled" />
-  <rect x="324" y="24" width="10" height="10" class="square-filled" />
-  <rect x="324" y="36" width="10" height="10" class="square-filled" />
-  <rect x="324" y="48" width="10" height="10" class="square-filled" />
-  <rect x="324" y="60" width="10" height="10" class="square-filled" />
-  <rect x="324" y="72" width="10" height="10" class="square-filled" />
+  <rect x="324" y="0" width="10" height="10" class="square-filled letter-4" />
+  <rect x="324" y="12" width="10" height="10" class="square-filled letter-4" />
+  <rect x="324" y="24" width="10" height="10" class="square-filled letter-4" />
+  <rect x="324" y="36" width="10" height="10" class="square-filled letter-4" />
+  <rect x="324" y="48" width="10" height="10" class="square-filled letter-4" />
+  <rect x="324" y="60" width="10" height="10" class="square-filled letter-4" />
+  <rect x="324" y="72" width="10" height="10" class="square-filled letter-4" />
   <rect x="336" y="0" width="10" height="10" class="square-empty" />
   <rect x="336" y="12" width="10" height="10" class="square-empty" />
   <rect x="336" y="24" width="10" height="10" class="square-empty" />
-  <rect x="336" y="36" width="10" height="10" class="square-filled" />
+  <rect x="336" y="36" width="10" height="10" class="square-filled letter-4" />
   <rect x="336" y="48" width="10" height="10" class="square-empty" />
   <rect x="336" y="60" width="10" height="10" class="square-empty" />
   <rect x="336" y="72" width="10" height="10" class="square-empty" />
   <rect x="348" y="0" width="10" height="10" class="square-empty" />
   <rect x="348" y="12" width="10" height="10" class="square-empty" />
   <rect x="348" y="24" width="10" height="10" class="square-empty" />
-  <rect x="348" y="36" width="10" height="10" class="square-filled" />
+  <rect x="348" y="36" width="10" height="10" class="square-filled letter-4" />
   <rect x="348" y="48" width="10" height="10" class="square-empty" />
   <rect x="348" y="60" width="10" height="10" class="square-empty" />
   <rect x="348" y="72" width="10" height="10" class="square-empty" />
   <rect x="360" y="0" width="10" height="10" class="square-empty" />
   <rect x="360" y="12" width="10" height="10" class="square-empty" />
   <rect x="360" y="24" width="10" height="10" class="square-empty" />
-  <rect x="360" y="36" width="10" height="10" class="square-filled" />
+  <rect x="360" y="36" width="10" height="10" class="square-filled letter-4" />
   <rect x="360" y="48" width="10" height="10" class="square-empty" />
   <rect x="360" y="60" width="10" height="10" class="square-empty" />
   <rect x="360" y="72" width="10" height="10" class="square-empty" />
-  <rect x="372" y="0" width="10" height="10" class="square-filled" />
-  <rect x="372" y="12" width="10" height="10" class="square-filled" />
-  <rect x="372" y="24" width="10" height="10" class="square-filled" />
-  <rect x="372" y="36" width="10" height="10" class="square-filled" />
-  <rect x="372" y="48" width="10" height="10" class="square-filled" />
-  <rect x="372" y="60" width="10" height="10" class="square-filled" />
-  <rect x="372" y="72" width="10" height="10" class="square-filled" />
+  <rect x="372" y="0" width="10" height="10" class="square-filled letter-4" />
+  <rect x="372" y="12" width="10" height="10" class="square-filled letter-4" />
+  <rect x="372" y="24" width="10" height="10" class="square-filled letter-4" />
+  <rect x="372" y="36" width="10" height="10" class="square-filled letter-4" />
+  <rect x="372" y="48" width="10" height="10" class="square-filled letter-4" />
+  <rect x="372" y="60" width="10" height="10" class="square-filled letter-4" />
+  <rect x="372" y="72" width="10" height="10" class="square-filled letter-4" />
   <rect x="384" y="0" width="10" height="10" class="square-empty" />
   <rect x="384" y="12" width="10" height="10" class="square-empty" />
   <rect x="384" y="24" width="10" height="10" class="square-empty" />
@@ -241,40 +265,40 @@
   <rect x="384" y="60" width="10" height="10" class="square-empty" />
   <rect x="384" y="72" width="10" height="10" class="square-empty" />
   <rect x="396" y="0" width="10" height="10" class="square-empty" />
-  <rect x="396" y="12" width="10" height="10" class="square-filled" />
-  <rect x="396" y="24" width="10" height="10" class="square-filled" />
-  <rect x="396" y="36" width="10" height="10" class="square-filled" />
-  <rect x="396" y="48" width="10" height="10" class="square-filled" />
-  <rect x="396" y="60" width="10" height="10" class="square-filled" />
-  <rect x="396" y="72" width="10" height="10" class="square-filled" />
-  <rect x="408" y="0" width="10" height="10" class="square-filled" />
+  <rect x="396" y="12" width="10" height="10" class="square-filled letter-5" />
+  <rect x="396" y="24" width="10" height="10" class="square-filled letter-5" />
+  <rect x="396" y="36" width="10" height="10" class="square-filled letter-5" />
+  <rect x="396" y="48" width="10" height="10" class="square-filled letter-5" />
+  <rect x="396" y="60" width="10" height="10" class="square-filled letter-5" />
+  <rect x="396" y="72" width="10" height="10" class="square-filled letter-5" />
+  <rect x="408" y="0" width="10" height="10" class="square-filled letter-5" />
   <rect x="408" y="12" width="10" height="10" class="square-empty" />
   <rect x="408" y="24" width="10" height="10" class="square-empty" />
-  <rect x="408" y="36" width="10" height="10" class="square-filled" />
+  <rect x="408" y="36" width="10" height="10" class="square-filled letter-5" />
   <rect x="408" y="48" width="10" height="10" class="square-empty" />
   <rect x="408" y="60" width="10" height="10" class="square-empty" />
   <rect x="408" y="72" width="10" height="10" class="square-empty" />
-  <rect x="420" y="0" width="10" height="10" class="square-filled" />
+  <rect x="420" y="0" width="10" height="10" class="square-filled letter-5" />
   <rect x="420" y="12" width="10" height="10" class="square-empty" />
   <rect x="420" y="24" width="10" height="10" class="square-empty" />
-  <rect x="420" y="36" width="10" height="10" class="square-filled" />
+  <rect x="420" y="36" width="10" height="10" class="square-filled letter-5" />
   <rect x="420" y="48" width="10" height="10" class="square-empty" />
   <rect x="420" y="60" width="10" height="10" class="square-empty" />
   <rect x="420" y="72" width="10" height="10" class="square-empty" />
-  <rect x="432" y="0" width="10" height="10" class="square-filled" />
+  <rect x="432" y="0" width="10" height="10" class="square-filled letter-5" />
   <rect x="432" y="12" width="10" height="10" class="square-empty" />
   <rect x="432" y="24" width="10" height="10" class="square-empty" />
-  <rect x="432" y="36" width="10" height="10" class="square-filled" />
+  <rect x="432" y="36" width="10" height="10" class="square-filled letter-5" />
   <rect x="432" y="48" width="10" height="10" class="square-empty" />
   <rect x="432" y="60" width="10" height="10" class="square-empty" />
   <rect x="432" y="72" width="10" height="10" class="square-empty" />
   <rect x="444" y="0" width="10" height="10" class="square-empty" />
-  <rect x="444" y="12" width="10" height="10" class="square-filled" />
-  <rect x="444" y="24" width="10" height="10" class="square-filled" />
-  <rect x="444" y="36" width="10" height="10" class="square-filled" />
-  <rect x="444" y="48" width="10" height="10" class="square-filled" />
-  <rect x="444" y="60" width="10" height="10" class="square-filled" />
-  <rect x="444" y="72" width="10" height="10" class="square-filled" />
+  <rect x="444" y="12" width="10" height="10" class="square-filled letter-5" />
+  <rect x="444" y="24" width="10" height="10" class="square-filled letter-5" />
+  <rect x="444" y="36" width="10" height="10" class="square-filled letter-5" />
+  <rect x="444" y="48" width="10" height="10" class="square-filled letter-5" />
+  <rect x="444" y="60" width="10" height="10" class="square-filled letter-5" />
+  <rect x="444" y="72" width="10" height="10" class="square-filled letter-5" />
   <rect x="456" y="0" width="10" height="10" class="square-empty" />
   <rect x="456" y="12" width="10" height="10" class="square-empty" />
   <rect x="456" y="24" width="10" height="10" class="square-empty" />
@@ -282,15 +306,15 @@
   <rect x="456" y="48" width="10" height="10" class="square-empty" />
   <rect x="456" y="60" width="10" height="10" class="square-empty" />
   <rect x="456" y="72" width="10" height="10" class="square-empty" />
-  <rect x="468" y="0" width="10" height="10" class="square-filled" />
-  <rect x="468" y="12" width="10" height="10" class="square-filled" />
-  <rect x="468" y="24" width="10" height="10" class="square-filled" />
-  <rect x="468" y="36" width="10" height="10" class="square-filled" />
-  <rect x="468" y="48" width="10" height="10" class="square-filled" />
-  <rect x="468" y="60" width="10" height="10" class="square-filled" />
-  <rect x="468" y="72" width="10" height="10" class="square-filled" />
+  <rect x="468" y="0" width="10" height="10" class="square-filled letter-6" />
+  <rect x="468" y="12" width="10" height="10" class="square-filled letter-6" />
+  <rect x="468" y="24" width="10" height="10" class="square-filled letter-6" />
+  <rect x="468" y="36" width="10" height="10" class="square-filled letter-6" />
+  <rect x="468" y="48" width="10" height="10" class="square-filled letter-6" />
+  <rect x="468" y="60" width="10" height="10" class="square-filled letter-6" />
+  <rect x="468" y="72" width="10" height="10" class="square-filled letter-6" />
   <rect x="480" y="0" width="10" height="10" class="square-empty" />
-  <rect x="480" y="12" width="10" height="10" class="square-filled" />
+  <rect x="480" y="12" width="10" height="10" class="square-filled letter-6" />
   <rect x="480" y="24" width="10" height="10" class="square-empty" />
   <rect x="480" y="36" width="10" height="10" class="square-empty" />
   <rect x="480" y="48" width="10" height="10" class="square-empty" />
@@ -298,7 +322,7 @@
   <rect x="480" y="72" width="10" height="10" class="square-empty" />
   <rect x="492" y="0" width="10" height="10" class="square-empty" />
   <rect x="492" y="12" width="10" height="10" class="square-empty" />
-  <rect x="492" y="24" width="10" height="10" class="square-filled" />
+  <rect x="492" y="24" width="10" height="10" class="square-filled letter-6" />
   <rect x="492" y="36" width="10" height="10" class="square-empty" />
   <rect x="492" y="48" width="10" height="10" class="square-empty" />
   <rect x="492" y="60" width="10" height="10" class="square-empty" />
@@ -306,17 +330,17 @@
   <rect x="504" y="0" width="10" height="10" class="square-empty" />
   <rect x="504" y="12" width="10" height="10" class="square-empty" />
   <rect x="504" y="24" width="10" height="10" class="square-empty" />
-  <rect x="504" y="36" width="10" height="10" class="square-filled" />
+  <rect x="504" y="36" width="10" height="10" class="square-filled letter-6" />
   <rect x="504" y="48" width="10" height="10" class="square-empty" />
   <rect x="504" y="60" width="10" height="10" class="square-empty" />
   <rect x="504" y="72" width="10" height="10" class="square-empty" />
-  <rect x="516" y="0" width="10" height="10" class="square-filled" />
-  <rect x="516" y="12" width="10" height="10" class="square-filled" />
-  <rect x="516" y="24" width="10" height="10" class="square-filled" />
-  <rect x="516" y="36" width="10" height="10" class="square-filled" />
-  <rect x="516" y="48" width="10" height="10" class="square-filled" />
-  <rect x="516" y="60" width="10" height="10" class="square-filled" />
-  <rect x="516" y="72" width="10" height="10" class="square-filled" />
+  <rect x="516" y="0" width="10" height="10" class="square-filled letter-6" />
+  <rect x="516" y="12" width="10" height="10" class="square-filled letter-6" />
+  <rect x="516" y="24" width="10" height="10" class="square-filled letter-6" />
+  <rect x="516" y="36" width="10" height="10" class="square-filled letter-6" />
+  <rect x="516" y="48" width="10" height="10" class="square-filled letter-6" />
+  <rect x="516" y="60" width="10" height="10" class="square-filled letter-6" />
+  <rect x="516" y="72" width="10" height="10" class="square-filled letter-6" />
   <rect x="528" y="0" width="10" height="10" class="square-empty" />
   <rect x="528" y="12" width="10" height="10" class="square-empty" />
   <rect x="528" y="24" width="10" height="10" class="square-empty" />
