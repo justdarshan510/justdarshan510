@@ -16,15 +16,6 @@ jobs:
     timeout-minutes: 5
     
     steps:
-      - name: check secret status
-        run: |
-          mkdir -p dist
-          if [ -z "${{ secrets.PERSONAL_TOKEN }}" ]; then
-            echo "PERSONAL_TOKEN is NOT set" > dist/secret_status.txt
-          else
-            echo "PERSONAL_TOKEN is set" > dist/secret_status.txt
-          fi
-
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
