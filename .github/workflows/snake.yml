@@ -38,14 +38,10 @@ jobs:
           echo "127.0.0.1 api.github.com" | sudo tee -a /etc/hosts
 
       - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        run: |
+          npx generate-snake-animation --github_user=${{ github.repository_owner }} --output=dist/github-contribution-grid-snake.svg --output=dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: dummy-token
           NODE_TLS_REJECT_UNAUTHORIZED: 0
 
       - name: restore hosts file
