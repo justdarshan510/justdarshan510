@@ -13,7 +13,7 @@
 <h3 align="center">Know About Me</h3>
 <hr>
 
-<img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/brain.png" align="left" width="180" style="margin-right: 20px;" />
+<img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/profile.jpg" align="left" width="180" style="margin-right: 20px;" />
 
 #### Hey there! I'm Darshan
 
