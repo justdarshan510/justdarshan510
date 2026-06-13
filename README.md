@@ -96,7 +96,7 @@ I'm a full-stack software engineer fueled by tea and an unhealthy obsession with
 <br />
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/contributions_name.svg" alt="DARSHAN Grid" /><br /><br />
+  <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/contributions_name.svg?v=2" alt="DARSHAN Grid" /><br /><br />
   <sub><strong>Darshan's Contribution Graph</strong></sub><br/><br/>
   <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=justdarshan510&theme=react-dark&area=true&hide_border=true" alt="Contribution Graph" width="100%" />
