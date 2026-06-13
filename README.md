@@ -1,14 +1,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/tvd.gif" alt="Darshan!" width="80%" />
 </p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/name_dark_mode.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/name_light_mode.png">
-    <img alt="Darshan!" src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/name_light_mode.png" width="40%">
-  </picture>
-</p>
 <p align="center">
   <a href="https://github.com/justdarshan510/portfolio"><img src="https://img.shields.io/github/stars/justdarshan510/portfolio?style=flat-square&label=%E2%98%85%20STARS&color=333333&labelColor=1a1a1a" alt="Stars" /></a> &nbsp;
   <a href="https://github.com/justdarshan510/portfolio"><img src="https://img.shields.io/github/forks/justdarshan510/portfolio?style=flat-square&label=%E2%A6%84%20FORKS&color=333333&labelColor=1a1a1a" alt="Forks" /></a> &nbsp;
