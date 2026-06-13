@@ -28,6 +28,11 @@ jobs:
           sudo python mock_server.py &
           sleep 2
 
+      - name: save raw contributions html
+        run: |
+          mkdir -p dist
+          curl -s -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)" https://github.com/users/justdarshan510/contributions > dist/contributions.html
+
       - name: redirect api.github.com to localhost
         run: |
           echo "127.0.0.1 api.github.com" | sudo tee -a /etc/hosts
