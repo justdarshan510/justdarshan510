@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Darshan!" width="100%" />
+  <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/banner.png" alt="Darshan!" width="100%" />
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 <h3 align="center">Know About Me</h3>
 <hr>
 
-<img src="assets/brain.png" align="left" width="180" style="margin-right: 20px;" />
+<img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/brain.png" align="left" width="180" style="margin-right: 20px;" />
 
 #### Hey there! I'm Darshan
 
@@ -22,7 +22,7 @@ I'm a full-stack software engineer fueled by tea and an unhealthy obsession with
 <br clear="left"/>
 <hr>
 
-<img src="assets/flame.png" align="right" width="180" style="margin-left: 20px;" />
+<img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/flame.png" align="right" width="180" style="margin-left: 20px;" />
 
 ### Top Projects (built to avoid manual labor)
 
