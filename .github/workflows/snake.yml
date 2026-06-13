@@ -14,39 +14,19 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    
     steps:
       - name: checkout
         uses: actions/checkout@v3
 
-      - name: generate self-signed ssl cert
-        run: |
-          openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -sha256 -days 1 -nodes -subj "/CN=api.github.com"
-
-      - name: start mock graphql server
-        run: |
-          sudo python mock_server.py &
-          sleep 2
-
-      - name: save raw contributions html
-        run: |
-          mkdir -p dist
-          curl -s -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)" https://github.com/users/justdarshan510/contributions > dist/contributions.html
-
-      - name: redirect api.github.com to localhost
-        run: |
-          echo "127.0.0.1 api.github.com" | sudo tee -a /etc/hosts
-
       - name: generate github-contribution-grid-snake.svg
-        run: |
-          npx generate-snake-animation --github_user=${{ github.repository_owner }} --output=dist/github-contribution-grid-snake.svg --output=dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
-          GITHUB_TOKEN: dummy-token
-          NODE_TLS_REJECT_UNAUTHORIZED: 0
-
-      - name: restore hosts file
-        run: |
-          sudo sed -i '/api.github.com/d' /etc/hosts
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
