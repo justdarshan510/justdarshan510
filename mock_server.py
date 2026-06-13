@@ -74,6 +74,9 @@ class MockGraphQLHandler(http.server.BaseHTTPRequestHandler):
                     "weekday": weekday
                 })
                 
+            # Sort chronologically by date
+            contribution_days.sort(key=lambda d: d["date"])
+            
             weeks = []
             current_week = []
             for day in contribution_days:
