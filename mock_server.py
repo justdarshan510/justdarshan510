@@ -52,8 +52,6 @@ class MockGraphQLHandler(http.server.BaseHTTPRequestHandler):
                 dt = datetime.strptime(date_str, "%Y-%m-%d")
                 weekday = (dt.weekday() + 1) % 7
                 
-                color, level_name = level_map.get(level, ("#ebedf0", "NONE"))
-                
                 tooltip = tooltip_map.get(id_, "")
                 count = 0
                 count_match = re.search(r'(\d+) contribution', tooltip)
@@ -63,6 +61,14 @@ class MockGraphQLHandler(http.server.BaseHTTPRequestHandler):
                     count = 0
                 else:
                     count = int(level) * 3 if level != "0" else 0
+
+                # Filter out the artificial commits (which always have exactly 25 contributions)
+                if count == 25:
+                    count = 0
+                    level = "0"
+                    color, level_name = ("#ebedf0", "NONE")
+                else:
+                    color, level_name = level_map.get(level, ("#ebedf0", "NONE"))
                     
                 total_contributions += count
                 
