@@ -15,6 +15,12 @@
   <a href="https://github.com/justdarshan510"><img src="https://img.shields.io/github/followers/justdarshan510?style=flat-square&label=%F0%9F%91%A4%20FOLLOWERS&color=333333&labelColor=1a1a1a" alt="Followers" /></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/justdarshan510"><img src="https://img.shields.io/badge/GITHUB-black?style=for-the-badge&logo=github" alt="GitHub" /></a> &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/darshan-sudhakar-b106ba39b"><img src="https://img.shields.io/badge/LINKEDIN-black?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a> &nbsp;&nbsp;
+  <a href="mailto:just.darshan510@gmail.com"><img src="https://img.shields.io/badge/GMAIL-black?style=for-the-badge&logo=gmail" alt="Gmail" /></a>
+</p>
+
 <br />
 
 <h3 align="center">Know About Me</h3>
@@ -73,17 +79,6 @@ I'm a full-stack software engineer fueled by tea and an unhealthy obsession with
 * **<a href="https://github.com/justdarshan510/portfolio"><img src="https://img.shields.io/badge/%F0%9F%92%BC%20PORTFOLIO-black?style=flat-square" align="center" alt="Portfolio" /></a>** &nbsp; My personal portfolio website built with React, Vite, and custom tactile physics/drifting animations.
 
 <br clear="right"/>
-<hr>
-
-<h3 align="center">Connect</h3>
-<br />
-
-<p align="center">
-  <a href="https://github.com/justdarshan510"><img src="https://img.shields.io/badge/GITHUB-black?style=for-the-badge&logo=github" alt="GitHub" /></a> &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/darshan-sudhakar-b106ba39b"><img src="https://img.shields.io/badge/LINKEDIN-black?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a> &nbsp;&nbsp;
-  <a href="mailto:just.darshan510@gmail.com"><img src="https://img.shields.io/badge/GMAIL-black?style=for-the-badge&logo=gmail" alt="Gmail" /></a>
-</p>
-
 <hr>
 
 > Code is never finished. It only becomes slightly less terrible over time.
