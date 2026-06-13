@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/banner.png" alt="Darshan!" width="100%" />
+  <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/music_banner.jpg" alt="Darshan!" width="100%" />
 </p>
 
 <p align="center">
