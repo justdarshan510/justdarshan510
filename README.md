@@ -27,6 +27,16 @@ I'm a full-stack software engineer fueled by tea and an unhealthy obsession with
 <br clear="left"/>
 <hr>
 
+<img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/flame.png" align="right" width="180" style="margin-left: 20px;" />
+
+### Top Projects (built to avoid manual labor)
+
+* **<a href="https://github.com/justdarshan510/CricBid"><img src="https://img.shields.io/badge/%F0%9F%8F%8F%20CRICBID-black?style=flat-square" align="center" alt="CricBid" /></a>** &nbsp; A real-time multiplayer cricket bidding and player auction application with live lobby sync and overdraft validations.
+* **<a href="https://github.com/justdarshan510/portfolio"><img src="https://img.shields.io/badge/%F0%9F%92%BC%20PORTFOLIO-black?style=flat-square" align="center" alt="Portfolio" /></a>** &nbsp; My personal portfolio website built with React, Vite, and custom tactile physics/drifting animations.
+
+<br clear="right"/>
+<hr>
+
 <h3 align="center">Tech Stack</h3>
 <br />
 
@@ -61,16 +71,6 @@ I'm a full-stack software engineer fueled by tea and an unhealthy obsession with
   <a href="https://www.sqlite.org/"><img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" /></a>
 </p>
 
-<hr>
-
-<img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/flame.png" align="right" width="180" style="margin-left: 20px;" />
-
-### Top Projects (built to avoid manual labor)
-
-* **<a href="https://github.com/justdarshan510/CricBid"><img src="https://img.shields.io/badge/%F0%9F%8F%8F%20CRICBID-black?style=flat-square" align="center" alt="CricBid" /></a>** &nbsp; A real-time multiplayer cricket bidding and player auction application with live lobby sync and overdraft validations.
-* **<a href="https://github.com/justdarshan510/portfolio"><img src="https://img.shields.io/badge/%F0%9F%92%BC%20PORTFOLIO-black?style=flat-square" align="center" alt="Portfolio" /></a>** &nbsp; My personal portfolio website built with React, Vite, and custom tactile physics/drifting animations.
-
-<br clear="right"/>
 <hr>
 
 > Code is never finished. It only becomes slightly less terrible over time.
