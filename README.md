@@ -26,18 +26,15 @@ I'm a full-stack software engineer with a strong focus on building high-performa
 <br clear="left"/>
 <hr>
 
-<h3 align="center">
-  <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/flame.png" width="32" style="vertical-align: text-bottom;" /> 
+<h3>
+  <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/flame.png" width="28" style="vertical-align: text-bottom;" /> 
   Featured Projects
 </h3>
-<br />
 
-| Project | Description |
-| :--- | :--- |
-| **[🏏 CricBid](https://github.com/justdarshan510/CricBid)** | A real-time multiplayer cricket bidding and player auction application with live lobby sync and overdraft validations. |
-| **[💼 Portfolio](https://github.com/justdarshan510/portfolio)** | My personal portfolio website built with React, Vite, and custom tactile physics/drifting animations. |
-| **[✨ Enhancer](https://github.com/justdarshan510/Enhancer)** | An AI-powered application designed to upscale and enhance blurred or low-resolution images. |
-| **[🌱 Hydroponic Dashboard](https://github.com/justdarshan510/hydroponic-dashboard)** | A sleek, real-time monitoring dashboard built for smart hydroponic farming systems. |
+* **<a href="https://github.com/justdarshan510/CricBid"><img src="https://img.shields.io/badge/🏏%20CRICBID-black?style=for-the-badge" align="center" alt="CricBid" /></a>** &nbsp; A real-time multiplayer cricket bidding and player auction application with live lobby sync.
+* **<a href="https://github.com/justdarshan510/portfolio"><img src="https://img.shields.io/badge/💼%20PORTFOLIO-black?style=for-the-badge" align="center" alt="Portfolio" /></a>** &nbsp; My personal portfolio website built with React, Vite, and custom tactile physics animations.
+* **<a href="https://github.com/justdarshan510/Enhancer"><img src="https://img.shields.io/badge/✨%20ENHANCER-black?style=for-the-badge" align="center" alt="Enhancer" /></a>** &nbsp; An AI-powered application designed to upscale and enhance blurred or low-resolution images.
+* **<a href="https://github.com/justdarshan510/hydroponic-dashboard"><img src="https://img.shields.io/badge/🌱%20HYDRO-black?style=for-the-badge" align="center" alt="Hydroponic Dashboard" /></a>** &nbsp; A sleek, real-time monitoring dashboard built for smart hydroponic farming systems.
 <hr>
 
 <h3 align="center">Tech Stack</h3>
