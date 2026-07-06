@@ -2,11 +2,7 @@
   <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/tvd.gif" alt="Darshan!" width="80%" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/justdarshan510/portfolio"><img src="https://img.shields.io/github/stars/justdarshan510/portfolio?style=flat-square&label=%E2%98%85%20STARS&color=333333&labelColor=1a1a1a" alt="Stars" /></a> &nbsp;
-  <a href="https://github.com/justdarshan510/portfolio"><img src="https://img.shields.io/github/forks/justdarshan510/portfolio?style=flat-square&label=%E2%A6%84%20FORKS&color=333333&labelColor=1a1a1a" alt="Forks" /></a> &nbsp;
-  <a href="https://github.com/justdarshan510"><img src="https://img.shields.io/github/followers/justdarshan510?style=flat-square&label=%F0%9F%91%A4%20FOLLOWERS&color=333333&labelColor=1a1a1a" alt="Followers" /></a>
-</p>
+
 
 <p align="center">
   <a href="https://github.com/justdarshan510"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a> &nbsp;&nbsp;
