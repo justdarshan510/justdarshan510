@@ -1,13 +1,14 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=150&section=header" alt="Header Wave" width="100%" />
   <br/>
+  <a href="https://www.pinterest.com/pin/9429480467132340/">
+    <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/pinterest_cat_v5.gif" align="left" width="150" style="margin-right: 20px; border-radius: 12px;" alt="Pinterest Portfolio Video" />
+  </a>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=Hi,+I'm+Darshan;Full-Stack+Software+Engineer;I+build+high-performance+web+apps" alt="Typing SVG" />
 </p>
 
 
-<a href="https://www.pinterest.com/pin/9429480467132340/">
-  <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/pinterest_cat_v5.gif" align="left" width="150" style="margin-top: -40px; margin-right: 20px; border-radius: 12px;" alt="Pinterest Portfolio Video" />
-</a>
+
 
 <p align="center">
   <a href="https://github.com/justdarshan510"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a> &nbsp;&nbsp;
