@@ -77,3 +77,19 @@ I'm a full-stack software engineer fueled by tea and an unhealthy obsession with
 >
 > Every commit I make is essentially just a small, desperate apology to my future self. Someday I will return to this codebase, look at the spaghetti I've written, and wonder who let me anywhere near a keyboard.
 
+<hr>
+
+<h3 align="center">Contribution</h3>
+<br />
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/justdarshan510/justdarshan510/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/justdarshan510/justdarshan510/output/github-contribution-grid-snake.svg" />
+    <img alt="Darshan's Contribution Snake" src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/output/github-contribution-grid-snake.svg" />
+  </picture><br /><br />
+  <sub><strong>Darshan's Contribution Graph</strong></sub><br/><br/>
+  <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=justdarshan510&theme=react-dark&area=true&hide_border=true" alt="Contribution Graph" width="100%" />
+  </a>
+</p>
