@@ -26,15 +26,16 @@ I'm a full-stack software engineer with a strong focus on building high-performa
 <br clear="left"/>
 <hr>
 
-<h3>
-  <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/flame.png" width="28" style="vertical-align: text-bottom;" /> 
-  Featured Projects
-</h3>
+<img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/flame.png" align="right" width="180" style="margin-left: 20px;" />
 
-* **<a href="https://github.com/justdarshan510/CricBid"><img src="https://img.shields.io/badge/🏏%20CRICBID-black?style=for-the-badge" align="center" alt="CricBid" /></a>** &nbsp; A real-time multiplayer cricket bidding and player auction application with live lobby sync.
-* **<a href="https://github.com/justdarshan510/portfolio"><img src="https://img.shields.io/badge/💼%20PORTFOLIO-black?style=for-the-badge" align="center" alt="Portfolio" /></a>** &nbsp; My personal portfolio website built with React, Vite, and custom tactile physics animations.
-* **<a href="https://github.com/justdarshan510/Enhancer"><img src="https://img.shields.io/badge/✨%20ENHANCER-black?style=for-the-badge" align="center" alt="Enhancer" /></a>** &nbsp; An AI-powered application designed to upscale and enhance blurred or low-resolution images.
-* **<a href="https://github.com/justdarshan510/hydroponic-dashboard"><img src="https://img.shields.io/badge/🌱%20HYDRO-black?style=for-the-badge" align="center" alt="Hydroponic Dashboard" /></a>** &nbsp; A sleek, real-time monitoring dashboard built for smart hydroponic farming systems.
+<h3 align="center">Top Projects</h3>
+
+* **<a href="https://github.com/justdarshan510/CricBid"><img src="https://img.shields.io/badge/CRICBID-black?style=flat-square" align="center" alt="CricBid" /></a>** &nbsp; A real-time multiplayer cricket bidding and player auction application with live lobby sync.
+* **<a href="https://github.com/justdarshan510/portfolio"><img src="https://img.shields.io/badge/PORTFOLIO-black?style=flat-square" align="center" alt="Portfolio" /></a>** &nbsp; My personal portfolio website built with React, Vite, and custom tactile physics animations.
+* **<a href="https://github.com/justdarshan510/Enhancer"><img src="https://img.shields.io/badge/ENHANCER-black?style=flat-square" align="center" alt="Enhancer" /></a>** &nbsp; An AI-powered application designed to upscale and enhance blurred or low-resolution images.
+* **<a href="https://github.com/justdarshan510/hydroponic-dashboard"><img src="https://img.shields.io/badge/HYDRO_DASHBOARD-black?style=flat-square" align="center" alt="Hydroponic Dashboard" /></a>** &nbsp; A sleek, real-time monitoring dashboard built for smart hydroponic farming systems.
+
+<br clear="right"/>
 <hr>
 
 <h3 align="center">Tech Stack</h3>
