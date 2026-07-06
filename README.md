@@ -22,7 +22,7 @@
 
 #### Hey there! I'm Darshan
 
-I'm a full-stack software engineer fueled by tea and an unhealthy obsession with minimalist and tactile dark themes. By day, I build high-performance web applications and design fluid, interactive user interfaces. By night, I experiment with game-like UI animations, real-time database synchronizations, or write scripts to automate my daily workflows to avoid manual labor.
+I'm a full-stack software engineer with a strong focus on building high-performance web applications and fluid, interactive user interfaces. I specialize in crafting clean, minimalist designs and developing robust backend systems. Beyond my core projects, I enjoy experimenting with UI animations, real-time database synchronization, and building tools to automate workflows.
 
 <br clear="left"/>
 <hr>
