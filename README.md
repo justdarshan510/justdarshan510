@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/tvd.gif" alt="Darshan!" width="80%" />
 </p>
+
 <p align="center">
   <a href="https://github.com/justdarshan510/portfolio"><img src="https://img.shields.io/github/stars/justdarshan510/portfolio?style=flat-square&label=%E2%98%85%20STARS&color=333333&labelColor=1a1a1a" alt="Stars" /></a> &nbsp;
   <a href="https://github.com/justdarshan510/portfolio"><img src="https://img.shields.io/github/forks/justdarshan510/portfolio?style=flat-square&label=%E2%A6%84%20FORKS&color=333333&labelColor=1a1a1a" alt="Forks" /></a> &nbsp;
@@ -8,9 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/justdarshan510"><img src="https://img.shields.io/badge/GITHUB-black?style=for-the-badge&logo=github" alt="GitHub" /></a> &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/darshan-sudhakar-b106ba39b"><img src="https://img.shields.io/badge/LINKEDIN-black?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a> &nbsp;&nbsp;
-  <a href="mailto:just.darshan510@gmail.com"><img src="https://img.shields.io/badge/GMAIL-black?style=for-the-badge&logo=gmail" alt="Gmail" /></a>
+  <a href="https://github.com/justdarshan510"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a> &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/darshan-sudhakar-b106ba39b"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a> &nbsp;&nbsp;
+  <a href="mailto:just.darshan510@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" /></a>
 </p>
 
 <br />
