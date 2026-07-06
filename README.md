@@ -14,6 +14,14 @@
 
 <br />
 
+<p align="center">
+  <a href="https://www.pinterest.com/pin/9429480467132340/">
+    <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/pinterest_video.gif" alt="Pinterest Portfolio Video" width="450" />
+  </a>
+</p>
+
+<br />
+
 
 
 <h3 align="center">Know About Me</h3>
