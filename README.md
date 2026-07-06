@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/banner.png" alt="Darshan" width="100%" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=Hi,+I'm+Darshan;Full-Stack+Software+Engineer;I+build+high-performance+web+apps" alt="Typing SVG" />
 </p>
 
 
