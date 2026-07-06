@@ -6,7 +6,7 @@
 
 
 <a href="https://www.pinterest.com/pin/9429480467132340/">
-  <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/pinterest_cat_v2.gif" align="left" width="150" style="margin-top: -40px; margin-right: 20px; border-radius: 12px;" alt="Pinterest Portfolio Video" />
+  <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/pinterest_cat_v3.gif" align="left" width="150" style="margin-top: -40px; margin-right: 20px; border-radius: 12px;" alt="Pinterest Portfolio Video" />
 </a>
 
 <p align="center">
