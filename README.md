@@ -12,7 +12,7 @@
 
 
 <p align="center">
-  <a href="https://github.com/justdarshan510"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a> &nbsp;&nbsp;
+  <a href="https://www.instagram.com/just.darshan510"><img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" /></a> &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/darshan-sudhakar-b106ba39b"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a> &nbsp;&nbsp;
   <a href="mailto:just.darshan510@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" /></a>
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="170" height="1" />
