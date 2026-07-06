@@ -5,6 +5,9 @@
 </p>
 
 
+<a href="https://www.pinterest.com/pin/9429480467132340/">
+  <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/pinterest_video.gif" align="left" width="180" style="margin-right: 20px; border-radius: 12px;" alt="Pinterest Portfolio Video" />
+</a>
 
 <p align="center">
   <a href="https://github.com/justdarshan510"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a> &nbsp;&nbsp;
@@ -14,13 +17,7 @@
 
 <br />
 
-<p align="center">
-  <a href="https://www.pinterest.com/pin/9429480467132340/">
-    <img src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/main/assets/pinterest_video.gif" alt="Pinterest Portfolio Video" width="450" />
-  </a>
-</p>
 
-<br />
 
 
 
