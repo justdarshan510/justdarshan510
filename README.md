@@ -32,22 +32,12 @@ I'm a full-stack software engineer with a strong focus on building high-performa
 </h3>
 <br />
 
-<p align="center">
-  <a href="https://github.com/justdarshan510/CricBid">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=justdarshan510&repo=CricBid&theme=react-dark&hide_border=true&bg_color=0D1117" width="48%" />
-  </a>
-  <a href="https://github.com/justdarshan510/portfolio">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=justdarshan510&repo=portfolio&theme=react-dark&hide_border=true&bg_color=0D1117" width="48%" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/justdarshan510/Enhancer">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=justdarshan510&repo=Enhancer&theme=react-dark&hide_border=true&bg_color=0D1117" width="48%" />
-  </a>
-  <a href="https://github.com/justdarshan510/hydroponic-dashboard">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=justdarshan510&repo=hydroponic-dashboard&theme=react-dark&hide_border=true&bg_color=0D1117" width="48%" />
-  </a>
-</p>
+| Project | Description |
+| :--- | :--- |
+| **[🏏 CricBid](https://github.com/justdarshan510/CricBid)** | A real-time multiplayer cricket bidding and player auction application with live lobby sync and overdraft validations. |
+| **[💼 Portfolio](https://github.com/justdarshan510/portfolio)** | My personal portfolio website built with React, Vite, and custom tactile physics/drifting animations. |
+| **[✨ Enhancer](https://github.com/justdarshan510/Enhancer)** | An AI-powered application designed to upscale and enhance blurred or low-resolution images. |
+| **[🌱 Hydroponic Dashboard](https://github.com/justdarshan510/hydroponic-dashboard)** | A sleek, real-time monitoring dashboard built for smart hydroponic farming systems. |
 <hr>
 
 <h3 align="center">Tech Stack</h3>
