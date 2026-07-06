@@ -89,7 +89,7 @@ I'm a full-stack software engineer fueled by tea and an unhealthy obsession with
     <img alt="Darshan's Contribution Snake" src="https://raw.githubusercontent.com/justdarshan510/justdarshan510/output/github-contribution-grid-snake.svg" />
   </picture><br /><br />
   <sub><strong>Darshan's Contribution Graph</strong></sub><br/><br/>
-  <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">
+  <a href="https://github.com/justdarshan510">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=justdarshan510&theme=react-dark&area=true&hide_border=true" alt="Contribution Graph" width="100%" />
   </a>
 </p>
